@@ -144,6 +144,22 @@
     display: flex; align-items: center; justify-content: center;
     font-size: 22px; margin-bottom: 20px;
   }
+  .diff-icon-split {
+    width: 48px; height: 48px; border-radius: 12px;
+    border: 1px solid var(--border);
+    display: flex; overflow: hidden; margin-bottom: 20px;
+    box-shadow: 0 0 12px rgba(26,107,255,0.15);
+  }
+  .split-left {
+    width: 50%; background: rgba(26,107,255,0.18);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px; border-right: 1px solid rgba(0,200,255,0.3);
+  }
+  .split-right {
+    width: 50%; background: rgba(0,200,255,0.08);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+  }
   .diff-card h3 { font-size: 18px; font-weight: 700; margin-bottom: 10px; letter-spacing: -0.4px; }
   .diff-card p { font-size: 14px; color: var(--gray); line-height: 1.65; }
 
@@ -292,9 +308,9 @@
       <span class="gradient">Rooted in Your Environment.</span>
     </h1>
     <p class="hero-sub">
-      Before we build, we listen. We <strong>map your business needs,</strong> then engineer <strong>intelligent systems that actually fit.</strong>
+      Before building, the focus is on listening. <strong>Mapping your business needs</strong> first, then engineering <strong>intelligent systems that actually fit.</strong>
     </p>
-    <p class="hero-tagline">From data to decisions, everything we build is connected, automated, and intelligent.</p>
+    <p class="hero-tagline">From data to decisions, everything built is connected, automated, and intelligent.</p>
     <div class="hero-btns">
       <a href="#services" class="btn-primary">Explore Our Services</a>
       <a href="#contact" class="btn-ghost">Book a Consultation →</a>
@@ -324,7 +340,7 @@
 <section class="diff-section">
   <div class="section-label">Our Difference</div>
   <h2>Why Decision Foundry?</h2>
-  <p class="section-sub">Four things that make us genuinely different, not just claims, but how we operate every day.</p>
+  <p class="section-sub">Four things that make Decision Foundry genuinely different, not just claims, but how the team operates every day.</p>
   <div class="diff-grid">
     <div class="diff-card">
       <div class="diff-icon">🖥️</div>
@@ -334,17 +350,20 @@
     <div class="diff-card">
       <div class="diff-icon">🎛️</div>
       <h3>Hypercustomized, End-to-End</h3>
-      <p>From data pipelines to multi-agent systems, everything is designed specifically for your business context. We go deep where others go broad.</p>
+      <p>From data pipelines to multi-agent systems, everything is designed specifically for your business context. Going deep where others go broad.</p>
     </div>
     <div class="diff-card">
       <div class="diff-icon">🛡️</div>
       <h3>Speed with Discipline</h3>
-      <p>We move with urgency but never cut corners on security, governance, or scalability. Rapid delivery and enterprise-grade trust are not mutually exclusive.</p>
+      <p>Moving with urgency without cutting corners on security, governance, or scalability. Rapid delivery and enterprise-grade trust are not mutually exclusive.</p>
     </div>
     <div class="diff-card">
-      <div class="diff-icon">🤝</div>
+      <div class="diff-icon-split">
+        <div class="split-left">⚡</div>
+        <div class="split-right">🧑</div>
+      </div>
       <h3>Tech Meets Business</h3>
-      <p>Our teams bridge the gap most firms can't, combining deep expertise in data science, engineering, domain knowledge, and business strategy, all in one room.</p>
+      <p>Bridging the gap most firms can't, combining deep expertise in data science, engineering, domain knowledge, and business strategy, all in one room.</p>
     </div>
   </div>
 </section>
@@ -355,7 +374,7 @@
     <div>
       <div class="section-label">What We Do</div>
       <h2>Our Services, <span class="g">Powered by Agentic AI</span></h2>
-      <p class="section-sub">Three connected practices, each making the next more powerful, from your data all the way to intelligent platforms built around how you operate.</p>
+      <p class="section-sub">Three connected practices, each making the next more powerful, from your data all the way to intelligent platforms built around how your business operates.</p>
     </div>
     <a href="#contact" class="btn-primary">Talk to an Expert →</a>
   </div>
@@ -367,7 +386,7 @@
       <div class="svc-step">Understand Your Data</div>
       <h3>Data Intelligence</h3>
       <p class="svc-pos">"Finally, visibility into what's actually working."</p>
-      <p>We centralize your data and turn it into decision-grade intelligence. From tag implementation and ETL pipelines to unified dashboards and advanced models like MMM and MTA, every layer is built to be agentic, surfacing insights automatically and feeding decisions in real time.</p>
+      <p>Centralizing your data and turning it into decision-grade intelligence. From tag implementation and ETL pipelines to unified dashboards and advanced models like MMM and MTA, every layer is built to be agentic, surfacing insights automatically and feeding decisions in real time.</p>
       <div class="svc-outcomes">
         <span class="outcome">Better decisions, faster</span>
         <span class="outcome">Clear ROI visibility</span>
@@ -391,7 +410,7 @@
       <div class="svc-step">Automate Your Operations</div>
       <h3>Workflow Automation</h3>
       <p class="svc-pos">"Cut manual work, reduce cost, move faster."</p>
-      <p>We automate the workflows that slow your teams down and burn budget. Once your data is unified, we connect your full tool ecosystem into intelligent, trigger-based workflows spanning marketing, sales, operations, and product, so your teams spend less time on manual work and more time on what matters.</p>
+      <p>Automating the workflows that otherwise slow your team and budget. Once data is unified, the full tool ecosystem connects into intelligent, trigger-based workflows spanning marketing, sales, operations, and product, so teams spend less time on manual work and more time on what matters.</p>
       <div class="svc-outcomes">
         <span class="outcome">Lower operational cost</span>
         <span class="outcome">Faster execution</span>
@@ -414,7 +433,7 @@
       <div class="svc-step">Build Your Platform</div>
       <h3>Intelligent Platforms, Built for You</h3>
       <p class="svc-pos">"Software built around our workflows, not the other way around."</p>
-      <p>We build intelligent business platforms when off-the-shelf tools don't fit. From net-new AI-native products to modernized legacy systems, everything is designed and delivered around how your teams actually work, deeply integrated, scalable, and built to evolve with your business.</p>
+      <p>Building intelligent business platforms when off-the-shelf tools don't fit. From net-new AI-native products to modernized legacy systems, everything is designed and delivered around how teams actually work, deeply integrated, scalable, and built to evolve with the business.</p>
       <div class="svc-outcomes">
         <span class="outcome">Hypercustomized to your workflows</span>
         <span class="outcome">Reduced SaaS sprawl</span>
@@ -439,13 +458,13 @@
 <section class="why-section" id="why">
   <div class="section-label">Our Expertise</div>
   <h2>The Bridge Between <span class="g">Tech & Business</span></h2>
-  <p class="section-sub">Most AI firms are brilliant engineers or savvy consultants. We're both, and that changes the kind of work we can do.</p>
+  <p class="section-sub">Most AI firms are brilliant engineers or savvy consultants. Decision Foundry is both, and that changes the kind of work that gets done.</p>
   <div class="why-list">
     <div class="why-item">
       <div class="why-check">✓</div>
       <div>
         <h4>Domain Knowledge Across Industries</h4>
-        <p>Our team has worked across media, healthcare, retail, and financial services, understanding business problems deeply before we touch the technology.</p>
+        <p>The team has worked across media, healthcare, retail, and financial services, understanding business problems deeply before touching the technology.</p>
       </div>
     </div>
     <div class="why-item">
@@ -459,14 +478,14 @@
       <div class="why-check">✓</div>
       <div>
         <h4>Tool-Agnostic, Outcome-Focused</h4>
-        <p>We've worked across Databricks, Snowflake, Tableau, Power BI, Salesforce, and more. We recommend what's right for you, not what we're commercially incentivized to push.</p>
+        <p>Having worked across Databricks, Snowflake, Tableau, Power BI, Salesforce, and more, the recommendation is always what's right for the client, not what's commercially incentivized.</p>
       </div>
     </div>
     <div class="why-item">
       <div class="why-check">✓</div>
       <div>
         <h4>Smaller Than Big Firms, Deeper Than Boutiques</h4>
-        <p>You get the strategic horsepower of a top-tier consultancy with the speed, flexibility, and personal accountability of a team that's all-in on your success.</p>
+        <p>The strategic horsepower of a top-tier consultancy, combined with the speed, flexibility, and personal accountability of a team that's all-in on your success.</p>
       </div>
     </div>
   </div>
@@ -479,7 +498,7 @@
       <span class="pill-dot"></span>Let's Build Together
     </div>
     <h2>Your Environment.<br/><span class="g">Our Expertise. Real Outcomes.</span></h2>
-    <p>Tell us your challenge. We'll bring the domain knowledge, the technical depth, and the speed to build something that actually fits.</p>
+    <p>Share the challenge. The domain knowledge, technical depth, and speed are ready to build something that actually fits.</p>
     <div class="cta-btns">
       <a href="https://www.decisionfoundry.com/book-a-consultation/" class="btn-primary">Book a Consultation</a>
       <a href="https://www.decisionfoundry.com/contact/" class="btn-ghost">Contact Us →</a>
